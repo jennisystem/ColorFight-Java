@@ -102,19 +102,19 @@ The module provided some API for the game. You are welcome to add your own API, 
 
 * `int y`: y coordinate.
 
-* `boolean isTaking`: is this cell being attacked. If it's `True` then you can't attack it.
+* `boolean isTaking`: is this cell being attacked. If it's `true` then you can't attack it.
 
-* `int attacker`: who is attacking this cell now. Invalid if `isTaking` is `False`.
+* `int attacker`: who is attacking this cell now. Invalid if `isTaking` is `false`.
 
 * `double occupyTime`: when is this cell occupied. Server side time in seconds. This is a timestamp from the server.
 
-* `double attackTime`: when is this cell attacked. Invalid if `isTaking` is `False`. This is a timestamp from the server.
+* `double attackTime`: when is this cell attacked. Invalid if `isTaking` is `false`. This is a timestamp from the server.
 
 * `double takeTime`: how long it would take if you attack this cell. This is a number of seconds.
 
-* `double finishTime`: when will the attack finish. Invalid if `isTaking` is `False`. This is a timestamp from the server.
+* `double finishTime`: when will the attack finish. Invalid if `isTaking` is `false`. This is a timestamp from the server.
 
-* `String cellType`: `'gold'` if it's a golden cell, 'energy' if it's a energy cell and `'normal'` if it's a normal cell.
+* `String cellType`: `"gold"` if it's a golden cell, `"energy"` if it's a energy cell and `"normal"` if it's a normal cell.
  
 * `boolean isBase`: if it's a base of the player.
 
