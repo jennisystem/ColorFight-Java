@@ -72,7 +72,7 @@ public class Game {
      * Constructor for objects of class Game 
      */
     public Game() {
-        for( var i = 0; i < cells.length; i++ ) {
+        for( int i = 0; i < cells.length; i++ ) {
             cells[ i ] = new Cell();
         }
     }
